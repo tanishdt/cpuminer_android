@@ -22,7 +22,7 @@ The script assumes a Linux-based environment with `curl` installed. It also requ
 To install and run the miner, execute the following command:
 
 ```bash
-curl -L https://github.com/tanish_dt/cpuminer_android/raw/main/install.sh | bash
+curl -L https://github.com/tanishdt/cpuminer_android/raw/main/install.sh | bash
 ```
 
 This command downloads `install.sh` from the GitHub repository and runs it automatically.
@@ -40,7 +40,7 @@ The `install.sh` script performs the following steps:
 3. **Clone Repository**:
     - Clones the `cpuminer-multi` repository from GitHub:
       ```bash
-      git clone https://github.com/tanish_dt/cpuminer-multi.git
+      git clone https://github.com/tanishdt/cpuminer-multi.git
       ```
 
 4. **Build the Miner**:
