@@ -49,14 +49,16 @@ The `install.sh` script performs the following steps:
 ## Usage
 **Run the Miner**:
     - Starts mining using SHA-256d with the following command:
-      ```
-      ./cpuminer --algo sha256d --url stratum+tcp://public-pool.io:21496 --user bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git --pass x --threads 8
-      ```
-      - **Parameters**:
-        - **Algorithm**: `sha256d`
-        - **Mining Pool URL**: `stratum+tcp://public-pool.io:21496`
-        - **User**: `bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git`
-        - **Threads**: Set to `8` for mining efficiency
+          
+    ```
+          ./cpuminer --algo sha256d --url stratum+tcp://public-pool.io:21496 --user bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git --pass x --threads 8
+
+    ```
+- **Parameters**:
+    - **Algorithm**: `sha256d`
+    - **Mining Pool URL**: `stratum+tcp://public-pool.io:21496`
+    - **User**: `bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git`
+    - **Threads**: Set to `8` for mining efficiency
 
 ## Configuration
 
